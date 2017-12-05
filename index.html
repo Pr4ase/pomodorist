@@ -21,13 +21,14 @@
     <center>
     <main id= "main">
         
+
         <div> </div>
         <div id='countDown'></div>
-        
-        <input class="btn" id="btnStart" type="button" value="Start" onclick="countDown('countDown'); ChangeMe()" />
-        <input class="btn" id="btnReset" type="button" value="Reset" onclick="resetTimer('countDown'); ChangeMe1();" /><br />
-        <br/>
-        
+                                <div id='shortbreak'> </div>
+                                <div id='longbreak'> </div>
+       
+        <input class="btn" id="btnStart" type="button" value="Start" onclick="countDown('countDown','shortbreak','longbreak','standard'); ChangeMe()" />
+        <input class="btn" id="btnReset" type="button" value="Reset" onclick="resetTimer('countDown','shortbreak'); ChangeMe1();" /><br />
 
     </main>
     </center>    
