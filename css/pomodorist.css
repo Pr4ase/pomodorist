@@ -2,15 +2,14 @@
 
 #countDown {
     font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
-
     position: relative;
     top: 100px;
-    font-size: 25px;
+    font-size: 50px;
 }
 
 h1 {
    
-    font-family: 'Noto Sans', 'sans-serif';
+    font-family: 'Comic Sans MS', 'sans-serif';
 }
 
 
@@ -20,7 +19,7 @@ h1 {
     border-radius: .5em;
     overflow: auto;
     width: 400px;
-    height: 300px;
+    height: 400px;
 }
 
 .btn { 
@@ -32,3 +31,38 @@ h1 {
     top: 220px;
 }
 
+#shortbreak {
+    position:relative;
+    font-size: 30px;
+    top: 90px;
+    LEFT: 200PX;
+    COLOR: #081f44;
+    height: 100px;
+    font-family: 'Comic Sans MS', 'sans-serif';
+    font-weight: bold;
+}
+
+body {
+    
+     background: linear-gradient(to right, #7fa5e2, #928dab);
+    
+
+}
+
+    #picture {
+        /*put picture div to take right side*/
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 40%;
+        right: 0px;
+        /*centers the picture's content both vertically and horizontally*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+#clock{
+    
+   width: 900px;
+}
